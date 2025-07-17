@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "example-resource-group"
-  location = "East US"
+  name     = "terraform-rg"
+  location = "West US"
 }
 
 resource "azurerm_virtual_network" "vnet" {
